@@ -3,6 +3,20 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Assessment\books.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\Week_5\countries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\Week_7\languages.csv">
           <value>
             <Attribute>

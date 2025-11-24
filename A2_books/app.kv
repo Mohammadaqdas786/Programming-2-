@@ -1,0 +1,21 @@
+<BookApp>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            id: status_label
+            text: "Welcome to the Book Tracker!"
+        TextInput:
+            id: title_input
+            hint_text: 'Book Title'
+        TextInput:
+            id: author_input
+            hint_text: 'Author'
+        TextInput:
+            id: pages_input
+            hint_text: 'Number of Pages'
+        Button:
+            text: 'Add Book'
+            on_press: app.add_book(self)
+        BoxLayout:
+            id: book_buttons
+            orientation: 'vertical'
